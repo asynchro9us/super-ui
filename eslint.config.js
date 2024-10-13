@@ -32,7 +32,7 @@ export default tseslint.config(
       'react/react-in-jsx-scope': ['off'],
       'prettier/prettier': ['warn'],
       // endOfLine: 'off',
-      // '@typescript-eslint/no-explicit-any': ['warn'],
+      '@typescript-eslint/no-explicit-any': ['warn'],
     },
   },
 );

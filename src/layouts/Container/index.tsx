@@ -1,11 +1,12 @@
-import { ReactElement } from 'react';
+import { FC, HTMLProps, ReactElement } from 'react';
 
 interface IContainer {
   children: ReactElement;
-  className?: string;
+  className?: HTMLProps<HTMLElement>['className'];
+  // className?: React.ComponentProps<'section'>['className'];
 }
 
-const Container = ({ children, className }: IContainer) => {
+const Container: FC<IContainer> = ({ children, className }) => {
   return (
     <section className={`w-full max-w-[2560px] ${className}`}>
       {children}

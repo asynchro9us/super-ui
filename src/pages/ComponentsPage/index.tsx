@@ -1,9 +1,10 @@
+import { FC } from 'react';
 import { Container } from '../../layouts';
 
-const ComponentsPage = () => {
+const ComponentsPage: FC = () => {
   return (
     <Container>
-      <div className="">Bye</div>
+      <div className="">Components</div>
     </Container>
   );
 };

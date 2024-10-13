@@ -1,9 +1,10 @@
+import { FC } from 'react';
 import { Container } from '../../layouts';
 
-const AboutUs = () => {
+const AboutUs: FC = () => {
   return (
     <Container>
-      <div className="">See ya</div>
+      <div className="">About Us</div>
     </Container>
   );
 };
