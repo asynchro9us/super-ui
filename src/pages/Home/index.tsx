@@ -3,7 +3,7 @@ import { Container } from '../../layouts';
 
 const Home: FC = () => {
   return (
-    <Container className="px-6 bg-gradient-to-b from-grayV3 to-white to-90%">
+    <Container className="px-6">
       <>
         <div className="flex flex-col justify-center items-end py-24">
           <h1 className="text-3xl sm:text-5xl md:text-7xl">React Components</h1>

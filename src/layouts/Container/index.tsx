@@ -1,4 +1,5 @@
 import { FC, HTMLProps, ReactElement } from 'react';
+import { twMerge } from 'tailwind-merge';
 
 interface IContainer {
   children: ReactElement;
@@ -8,7 +9,7 @@ interface IContainer {
 
 const Container: FC<IContainer> = ({ children, className }) => {
   return (
-    <section className={`w-full max-w-[2560px] ${className}`}>
+    <section className={twMerge(`w-full max-w-[2560px] ${className}`)}>
       {children}
     </section>
   );

@@ -6,7 +6,7 @@ import { FC } from 'react';
 
 const Header: FC = () => {
   return (
-    <nav className="sticky top-0 w-full flex justify-center bg-grayV3 backdrop-blur-sm">
+    <nav className="sticky top-0 w-full flex justify-center bg-grayV1/80 backdrop-blur-sm text-gray-100">
       <Container className="max-w-[1024px] px-6">
         <ul className="flex items-center gap-6">
           <li>
