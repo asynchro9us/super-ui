@@ -7,10 +7,7 @@ export default {
   theme: {
     extend: {
       colors: colors,
-      // fontFamily: {
-      //   sansRegular: ['RalewayRg', 'sans'],
-      //   sansBold: ['RalewayBd', 'sans'],
-      // },
+      fontFamily: {},
     },
     fontSize: {
       xs: '0.75rem',
