@@ -5,30 +5,10 @@
 @font-face {
   font-family: 'MyFont';
   src:
-    local('RalewayRg'),
-    url('./assets/fonts/Raleway-Regular.ttf') format('truetype');
+    local('Montserrat-VariableFont_wght'),
+    url('./assets/fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-display: 'swap';
 }
-
-/* @font-face {
-  font-family: 'MyFont';
-  src:
-    local('RalewayTh'),
-    url('./assets/fonts/Raleway-Thin.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'MyFont';
-  src:
-    local('RalewayMd'),
-    url('./assets/fonts/Raleway-Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'MyFont';
-  src:
-    local('RalewayBd'),
-    url('./assets/fonts/Raleway-Bold.ttf') format('truetype');
-} */
 
 *,
 *::after,
@@ -40,4 +20,8 @@
 
 body {
   font-family: 'MyFont';
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
