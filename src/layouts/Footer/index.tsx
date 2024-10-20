@@ -11,14 +11,11 @@ const Footer: FC = () => {
             <Logo width={'30'} height={'30'} />
             <p className="text-xs text-gray-800">Some description over here.</p>
           </div>
-
           <hr />
-
-          <p className="text-xs text-gray-800"> Some navigation urls</p>
-
-          <hr />
-
-          <p className="text-sm text-gray-500 pb-6 font-thin">Copyright</p>
+          <span>
+            <p className="inline text-xs text-gray-800"> Built by </p>
+            <p className="inline ml-2 pb-6">X - L A R A T E</p>
+          </span>
         </>
       </Container>
     </footer>
