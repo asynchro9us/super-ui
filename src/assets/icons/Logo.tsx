@@ -1,6 +1,6 @@
 import { FC, SVGProps } from 'react';
 
-const Logo: FC<SVGProps<any>> = (props) => {
+const Logo: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
